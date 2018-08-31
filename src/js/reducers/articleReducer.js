@@ -5,11 +5,7 @@ const articleReducer = (state = [], action) => {
     case ADD_ARTICLE:
       return [...state, action.payload];
     case REMOVE_ARTICLE:
-      let articles = []
-      state.forEach((article) => {
-        if (article.id != action.payload) articles.push(article)
-      })
-      return articles;
+      return state.filter((article) => {return article.id !== action.payload})
     default:
       return state;
   }
