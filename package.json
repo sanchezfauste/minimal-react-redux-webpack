@@ -17,13 +17,12 @@
   "bugs": {
     "url": "https://github.com/valentinogagliardi/minimal-react-webpack/issues"
   },
-  "homepage":
-    "https://github.com/valentinogagliardi/minimal-react-webpack#readme",
+  "homepage": "https://github.com/valentinogagliardi/minimal-react-webpack#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.0.6",
@@ -33,8 +32,8 @@
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "uuid": "^3.1.0",
-    "webpack": "^4.1.1",
+    "webpack": "^4.17.1",
     "webpack-cli": "^2.0.11",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-dev-server": "^3.1.7"
   }
 }
